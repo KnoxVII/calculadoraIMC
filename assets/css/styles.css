@@ -108,6 +108,11 @@ body {
   padding: 0.5rem 0;
   border-radius: 3px;
   cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+#calculate:active {
+  transform: scale(1.1);
 }
 
 #result {
