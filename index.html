@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script defer src="assets/js/scripts.js"></script>
-  <title>Calculadora IMC</title>
+  <title>Calculadora de IMC</title>
 </head>
 <body>
   <main id="container">
@@ -25,19 +25,19 @@
           </label>
           <div class="input-field">
             <i class="fa-solid fa-weight-hanging"></i>
-            <input type="number" id="weight" required>
+            <input type="number" id="weight" name="weight" required>
             <span>Kg</span>
           </div>
         </div>
 
         <div class="input-box">
           <label for="height">
-            Altura (Cm):
+            Altura (m):
           </label>
           <div class="input-field">
             <i class="fa-solid fa-ruler"></i>
-            <input type="number" id="height" required>
-            <span>Cm</span>
+            <input type="number" step="0.01" id="height" name="height" required>
+            <span>m</span>
           </div>
         </div>
 
